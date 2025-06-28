@@ -1,0 +1,68 @@
+1. User: please run the app
+2. User: Please create one .md file with react project cheat sheet, starting from node js installation
+3. User: getting http://localhost:3000/
+4. User: unable to open the app
+5. User: This site can’t be reached
+localhost refused to connect.
+Try:
+
+Checking the connection
+Checking the proxy and the firewall
+ERR_CONNECTION_REFUSED
+6. User: Please make necessary changes
+7. User: Please populate the landing page with the appNames from appData.json. And also center align the contents, with nice CSS
+8. User: Compiled with problems:
+×
+ERROR in ./src/App.js 8:0-38
+Module not found: Error: You attempted to import ../appData.json which falls outside of the project src/ directory. Relative imports outside of src/ are not supported.
+You can either move it inside src/, or add a symlink to it from project's node_modules/.
+9. User: fix the project structure Compiled with problems:
+×
+ERROR in ./src/App.js 8:0-38
+Module not found: Error: You attempted to import ../appData.json which falls outside of the project src/ directory. Relative imports outside of src/ are not supported.
+You can either move it inside src/, or add a symlink to it from project's node_modules/.
+10. User: Now I wish to display tiles on the each app page e.g. on http://localhost:3003/itam it should display tiles for source, host, target. If I click source - it should display data from https://isro.vercel.app/api/spacecrafts in a table format. Use the same data for now for all the tiles (for development purpose). Each tile should have it's endpoint e.g. /itam/source. When hit back it should take me back to the app page.  
+11. User: Apply nice css to all the pages. Including the table data
+12. User: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(54:1) /Users/sawanmehta/Documents/ModernApp/my-react-app/src/styles/App.css Unclosed block
+
+  52 | }
+  53 | 
+> 54 | .button {
+     | ^
+  55 | .button {
+  56 |   background-color: #007bff;
+
+webpack compiled with 1 error
+13. User: Now when I click the tile for source, it should check what API endpoint it should fetch from appData.json. If there is no endpoint specified - display welcome page as of now with a message - no data available. If the endpoint is valid and is specified in appData, please populate the data into tabular form.  
+14. User: Please create an API endpoint with current data and host it at /dummySourceData
+15. User: Access to localhost was denied
+You don't have authorization to view this page.
+HTTP ERROR 403
+16. User: sawanmehta@MacBookPro my-react-app % node server.js
+/Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:73
+            throw new TypeError(`Missing parameter name at ${i}: ${DEBUG_URL}`);
+            ^
+
+TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+    at name (/Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:73:19)
+    at lexer (/Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:91:27)
+    at lexer.next (<anonymous>)
+    at Iter.peek (/Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:106:38)
+    at Iter.tryConsume (/Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:112:28)
+    at Iter.text (/Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:128:30)
+    at consume (/Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:152:29)
+    at parse (/Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:183:20)
+    at /Users/sawanmehta/Documents/ModernApp/my-react-app/node_modules/path-to-regexp/dist/index.js:294:74
+    at Array.map (<anonymous>)
+
+Node.js v24.3.0
+sawanmehta@MacBookPro my-react-app %  
+17. User: yes
+18. User: yes pls fix
+19. User: build again
+20. User: why data from http://localhost:3000/sources is not showing?
+21. User: restart server
+22. User: can you write my prompt history from start to end in file and give it to me

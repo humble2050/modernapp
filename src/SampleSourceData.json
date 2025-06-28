@@ -1,0 +1,242 @@
+[
+    {
+        "SourceName": "Alpha",
+        "SourceDescription": "Primary data source for analytics.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Beta",
+        "SourceDescription": "Secondary backup source.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Gamma",
+        "SourceDescription": "Legacy system integration.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Delta",
+        "SourceDescription": "External API feed.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Epsilon",
+        "SourceDescription": "User-generated content source.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Zeta",
+        "SourceDescription": "Internal reporting tool.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Eta",
+        "SourceDescription": "Mobile app data.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Theta",
+        "SourceDescription": "Partner data exchange.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Iota",
+        "SourceDescription": "IoT device stream.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Kappa",
+        "SourceDescription": "Marketing campaign data.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Lambda",
+        "SourceDescription": "Customer feedback source.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Mu",
+        "SourceDescription": "Salesforce integration.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Nu",
+        "SourceDescription": "Financial transactions.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Xi",
+        "SourceDescription": "HR management system.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Omicron",
+        "SourceDescription": "Supplier data feed.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Pi",
+        "SourceDescription": "Inventory tracking.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Rho",
+        "SourceDescription": "Customer support tickets.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Sigma",
+        "SourceDescription": "Website analytics.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Tau",
+        "SourceDescription": "Email campaign results.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Upsilon",
+        "SourceDescription": "Social media monitoring.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Phi",
+        "SourceDescription": "Product review aggregator.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Chi",
+        "SourceDescription": "Logistics tracking.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Psi",
+        "SourceDescription": "Cloud storage sync.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Omega",
+        "SourceDescription": "Data warehouse export.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Ares",
+        "SourceDescription": "Security event logs.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Hermes",
+        "SourceDescription": "Real-time messaging.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Apollo",
+        "SourceDescription": "User authentication source.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Artemis",
+        "SourceDescription": "Mobile push notifications.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Athena",
+        "SourceDescription": "AI model training data.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Demeter",
+        "SourceDescription": "Agricultural sensor data.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Dionysus",
+        "SourceDescription": "Event management system.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Hephaestus",
+        "SourceDescription": "Manufacturing process logs.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Hera",
+        "SourceDescription": "Customer loyalty program.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Hestia",
+        "SourceDescription": "Home automation data.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Poseidon",
+        "SourceDescription": "Weather monitoring.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Zeus",
+        "SourceDescription": "Executive dashboard.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Persephone",
+        "SourceDescription": "Seasonal trend analysis.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Helios",
+        "SourceDescription": "Solar energy data.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Selene",
+        "SourceDescription": "Nighttime activity logs.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Eos",
+        "SourceDescription": "Morning report generator.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Iris",
+        "SourceDescription": "Color palette database.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Nemesis",
+        "SourceDescription": "Risk assessment tool.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Nike",
+        "SourceDescription": "Performance metrics.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Tyche",
+        "SourceDescription": "Randomized testing data.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Pan",
+        "SourceDescription": "Audio stream source.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Eros",
+        "SourceDescription": "User engagement tracker.",
+        "SourceStatus": "inactive"
+    },
+    {
+        "SourceName": "Morpheus",
+        "SourceDescription": "Sleep pattern analysis.",
+        "SourceStatus": "active"
+    },
+    {
+        "SourceName": "Hypnos",
+        "SourceDescription": "Dream journal database.",
+        "SourceStatus": "inactive"
+    }
+]

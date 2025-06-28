@@ -1,0 +1,12 @@
+flowchart TD
+    A["User visits site"] --> B["index.js mounts <App />"]
+    B --> C["App.js loads appData.json"]
+    C --> D["Landing page: lists all apps"]
+    D --> E["User clicks an app"]
+    E --> F["App page: shows tiles for Source, Host, Target"]
+    F --> G["User clicks a tile"]
+    G --> H["TileDataPage: looks up endpoint in appData.json"]
+    H --> I{"Endpoint exists?"}
+    I --"Yes"--> J["DataTable fetches data from endpoint"]
+    J --> K["Display data in table"]
+    I --"No"--> L["Show 'No data available' message"]

@@ -1,0 +1,32 @@
+[
+    {
+        "appName": "Itam",
+        "source": "http://localhost:3000/sources",
+        "host": "https://isro.vercel.app/api/centres",
+        "target": "https://isro.vercel.app/api/customer_satellites"
+    },
+    {
+        "appName": "AlphaApp",
+        "source": "https://isro.vercel.app/api/launchers",
+        "host": "/alpha-host",
+        "target": "alphaTarget"
+    },
+    {
+        "appName": "BetaSuite",
+        "source": "https://isro.vercel.app/api/launchers",
+        "host": "/beta-host",
+        "target": "betaTarget"
+    },
+    {
+        "appName": "GammaTool",
+        "source": "https://isro.vercel.app/api/launchers",
+        "host": "/gamma-host",
+        "target": "gammaTarget"
+    },
+    {
+        "appName": "DeltaService",
+        "source": "https://isro.vercel.app/api/launchers",
+        "host": "/delta-host",
+        "target": "deltaTarget"
+    }
+]
